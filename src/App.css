@@ -1,0 +1,126 @@
+.App {
+  text-align: left;
+}
+
+.nav-container {
+  background-color: rgb(6, 6, 6);
+  padding-left: 0px;
+}
+
+.nav-ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul li a {
+  color: white;
+}
+
+.footer-bar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.register {
+  padding-left: 50px;
+}
+
+.inputField {
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.search-box {
+  margin-left: 50px;
+  padding: 7px;
+  display: block;
+  border: 1px solid skyblue;
+  margin-bottom: 20px;
+  width: 300px;
+}
+
+.pnf-label{
+  margin-left: 50px;
+}
+
+.invalid-input{
+  display: block;
+  color: red;
+  padding-left: 0px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.success{
+  color: green;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.product-list {
+  text-align: left;
+  margin-top: 50px;
+
+}
+
+.product-list ul {
+  margin: 0;
+}
+
+.product-list ul li {
+  display: inline-block;
+  padding: 5px;
+  width: 150px;
+  border: 1px solid skyblue;
+}
+
+.appButton {
+  width: 150px;
+  padding: 10px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
